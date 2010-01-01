@@ -1,7 +1,7 @@
 %define upstream_name    Unix-Processors
 %define upstream_version 2.041
 
-Summary:	Base classes for Sys::Info
+Summary:	Interface to processor (CPU) information
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	%mkrel 1
@@ -13,7 +13,7 @@ BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
-Perl base classes for Sys::Info.
+Perl interface to processor (CPU) information.
 
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}
