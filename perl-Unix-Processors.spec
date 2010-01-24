@@ -1,5 +1,5 @@
 %define upstream_name    Unix-Processors
-%define upstream_version 2.041
+%define upstream_version 2.042
 
 Summary:	Interface to processor (CPU) information
 Name:		perl-%{upstream_name}
