@@ -39,3 +39,23 @@ make test
 %doc README Changes
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.42.0-3
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 2.42.0-2mdv2011.0
++ Revision: 555209
+- rebuild
+
+* Sun Jan 24 2010 Jérôme Quelin <jquelin@mandriva.org> 2.42.0-1mdv2010.1
++ Revision: 495435
+- update to 2.042
+
+* Fri Jan 01 2010 Tomasz Pawel Gajc <tpg@mandriva.org> 2.41.0-1mdv2010.1
++ Revision: 484783
+- import perl-Unix-Processors
+
+
